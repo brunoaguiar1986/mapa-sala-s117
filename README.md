@@ -1,4 +1,9 @@
 # mapa-sala-s117
 
-- Instalar json-server
-- npx json-server db.json
+**Instalar** 
+
+npm install json-server
+
+**Executar**
+
+npx json-server db.json
