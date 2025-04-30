@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario Escolar | Admin</title>
+  <link rel="stylesheet" href="style/admin.css">
+  <link rel="icon" href="imgs/iconSite.png">
+</head>
+<body>
+  <header>
+
+    <div class="logoDiv" onclick="location.href='index.html'">
+
+       <img class="logoSenai" src="imgs/logoSenai_Black.png" alt="">
+
+        <span class="titleHome">Painel de Administrador</span>
+
+  </div>
+
+
+  </header>
+  <h1>Curso Técnico</h1>
+
+  <div class="buttonsAlterar">
+    <button id="buttonAlterar1" class="btnAlterar1" onclick="createWindow()">Criar Turmas</button> <button id="buttonAlterar2" class="btnAlterar2" onclick="horariosWindow()">Adicionar Horários</button>
+  </div>
+
+
+  <div class="createContainer" id="createContainer">
+
+<!-- Formulário de Criação de Turma -->
+<div class="box1">
+  <form id="form-criar">
+    <h2>Criar turma</h2>
+    <label for="id_turma" class="textCreate">Código da Turma (Ex: I2P3):</label>
+    <input type="text" id="id_turma" class="inputCreate" placeholder="Código da Turma" required>
+
+    <label for="nome_turma" class="textCreate">Nome da Turma:</label>
+    <input type="text" id="nome_turma" class="inputCreate" placeholder="Nome da Turma" required>
+
+    <label for="quantidade_alunos" class="textCreate">Quantidade de Alunos:</label>
+    <input type="number" id="quantidade_alunos" class="inputCreate" placeholder="Quantidade de Alunos" required>
+
+    <label for="novo-horario-almoco" class="textCreate">Horário de Almoço:</label>
+    <select id="novo-horario-almoco" class="inputCreate" required>
+      <!-- <option value="10:00">10:00</option>
+      <option value="10:30">10:30</option>
+      <option value="11:00">11:00</option> -->
+      <option value="11:30">11:30</option>
+      <!-- <option value="12:00">12:00</option> -->
+    </select>
+
+    <button type="submit" class="buttonCreate">Criar Turma</button>
+  </form>
+ </div>
+
+
+
+
+<!-- Formulário de Edição de Turma -->
+ <div class="box2">
+  <form id="form-editar-turma">
+    <h2>Editar turma</h2>
+    <label for="selecionar-turma" class="textCreate">Selecionar Turma para Editar:</label>
+    <select id="selecionar-turma" class="inputCreate" required></select>
+
+    <label for="novo-nome-turma" class="textCreate">Novo Nome da Turma:</label>
+    <input type="text" id="novo-nome-turma" class="inputCreate" placeholder="Novo nome" required>
+
+    <label for="nova-quantidade-alunos" class="textCreate">Nova Quantidade de Alunos:</label>
+    <input type="number" id="nova-quantidade-alunos" class="inputCreate" placeholder="Nova quantidade" required>
+
+    <label for="novo-horario-almoco" class="textCreate">Novo Horário de Almoço:</label>
+    <select id="novo-horario-almoco" class="inputCreate" required>
+      <!-- <option value="10:00">10:00</option>
+      <option value="10:30">10:30</option>
+      <option value="11:00">11:00</option> -->
+      <option value="11:30">11:30</option>
+      <!-- <option value="12:00">12:00</option> -->
+    </select>
+
+    <button type="submit" class="buttonCreate">Editar Turma</button>
+  </form>
+ </div>
+
+<div class="box3">
+<section id="excluir-turma">
+  <h2>Excluir Turma</h2>
+  <form id="form-excluir-turma">
+    <label for="turma-excluir" class="textCreate">Selecionar Turma para Excluir:</label>
+
+    <select id="turma-excluir" class="inputCreate">
+      <!-- As turmas serão preenchidas dinamicamente -->
+    </select>
+
+    <button type="submit" class="buttonCreate">Excluir Turma</button>
+  </form>
+</section>
+</div>
+
+  </div>
+
+  
+  
+
+
+
+  <div class="horariosContainer" id="horariosContainer">
+
+<!-- Adicionar Horários -->
+<div class="box4">
+  <section id="adicionar-horarios">
+    <h2>Adicionar Horários</h2>
+    <form id="form-adicionar-horarios">
+      <label for="turma-horario" class="textCreate">Selecionar Turma:</label>
+      <select id="selecionar-turma-adicionar" class="inputCreate">
+        <!-- As turmas serão preenchidas dinamicamente -->
+      </select>
+
+      <label for="dia-aula" class="textCreate">Dia da Aula:</label>
+      <select id="dia-aula" class="inputCreate">
+        <option value="segunda">Segunda-feira</option>
+        <option value="terça">Terça-feira</option>
+        <option value="quarta">Quarta-feira</option>
+        <option value="quinta">Quinta-feira</option>
+        <option value="sexta">Sexta-feira</option>
+        <option value="sábado">Sábado</option>
+      </select>
+
+      <label for="formato-aula" class="textCreate">Formato da Aula:</label>
+      <select id="formato-aula" class="inputCreate">
+        <option value="Técnico">Técnico</option>
+        <!-- <option value="FIC">FIC</option> -->
+      </select>
+
+      <label for="quantidade-aulas" class="textCreate">Quantidade de Aulas:</label>
+      <input type="number" id="quantidade-aulas" class="inputCreate" required>
+
+      <label for="horario-inicio" class="textCreate">Horário de Início:</label>
+      <select id="horario-inicio" class="inputCreate">
+        <!-- Horários serão preenchidos dinamicamente -->
+      </select>
+
+      <label for="disciplina" class="textCreate">Disciplina:</label>
+      <input type="text" id="disciplina" class="inputCreate" required>
+
+      <label for="professor" class="textCreate">Professor:</label>
+      <input type="text" id="professor" class="inputCreate" required>
+
+      <label for="sala" class="textCreate">Sala:</label>
+      <input type="text" id="sala" class="inputCreate" required>
+
+      <button type="submit" class="buttonCreate">Adicionar Horário</button>
+    </form>
+  </section>
+ </div>
+
+
+<!-- Excluir Horários -->
+ <div class="box5">
+  <div>
+    
+    <form id="form-excluir-horario">
+      <h2>Excluir Horário</h2>
+      <!-- Seleção da turma -->
+      <label for="turma-excluir" class="textCreate">Selecione a Turma:</label>
+      <select id="turma-excluir-horarios" class="inputCreate" required>
+        <option value="">Selecione uma turma</option>
+        <!-- As opções de turmas serão carregadas dinamicamente com JavaScript -->
+      </select>
+  
+      <!-- Seleção do horário -->
+      <label for="horario-excluir" class="textCreate">Selecione o Horário:</label>
+      <select id="horario-excluir" class="inputCreate" required>
+        
+        <!-- As opções de horários serão carregadas dinamicamente com JavaScript -->
+      </select>
+  
+      <button type="submit" class="buttonCreate">Excluir Horário</button>
+    </form>
+  </div>
+ </div>
+
+  </div>
+
+  
+
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+  <script src="lock.js"></script>
+</body>
+</html>

@@ -1,0 +1,872 @@
+{
+  "turmas": [
+    {
+      "id": "1a7d",
+      "codigo_turma": "I1P1",
+      "nome": " TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - A",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "414d",
+      "codigo_turma": " I1P1",
+      "nome": "TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - B",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "a453",
+      "codigo_turma": "I2P3",
+      "nome": "TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - A",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "b2b3",
+      "codigo_turma": " I2P3",
+      "nome": " TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - B",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "0aa7",
+      "codigo_turma": " I1C1",
+      "nome": "TÉCNICO  EM ELETRO-ELETRÔNICA - A",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "ae35",
+      "codigo_turma": "I1C1",
+      "nome": "TÉCNICO  EM ELETRO-ELETRÔNICA - B",
+      "quantidade_alunos": "3",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "3c07",
+      "codigo_turma": " I2C3",
+      "nome": "TÉCNICO  EM ELETRO-ELETRÔNICA - A",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    },
+    {
+      "id": "6bd8",
+      "codigo_turma": "I2C3",
+      "nome": " TÉCNICO  EM ELETRO-ELETRÔNICA - B",
+      "quantidade_alunos": "32",
+      "horario_almoco": "11:30"
+    }
+  ],
+  "horarios": [
+    {
+      "id": "ea9f",
+      "codigo_turma": "I1P1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "LOPAL",
+      "professor": "Ismael",
+      "sala": "INF Sala 1"
+    },
+    {
+      "id": "2291",
+      "codigo_turma": "I1P1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "ARI",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "6984",
+      "codigo_turma": "I1P1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "13:00",
+      "disciplina": "SOP",
+      "professor": " C. FERREIRA",
+      "sala": "Programação"
+    },
+    {
+      "id": "c8d0",
+      "codigo_turma": "I1P1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "1",
+      "horario_inicio": "13:00",
+      "disciplina": "SOP",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "fe3f",
+      "codigo_turma": "I1P1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "4",
+      "horario_inicio": "13:45",
+      "disciplina": "LER",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "964a",
+      "codigo_turma": " I1P1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "ARI",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "6b9a",
+      "codigo_turma": " I1P1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "LOPAL",
+      "professor": "Ismael",
+      "sala": "INF Sala 1"
+    },
+    {
+      "id": "cc82",
+      "codigo_turma": " I1P1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "1",
+      "horario_inicio": "13:00",
+      "disciplina": "SOP",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "6cf2",
+      "codigo_turma": " I1P1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "4",
+      "horario_inicio": "13:45",
+      "disciplina": "LER",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "4494",
+      "codigo_turma": " I1P1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "13:00",
+      "disciplina": "SOP",
+      "professor": "C. FERREIRA",
+      "sala": "Programação"
+    },
+    {
+      "id": "f1db",
+      "codigo_turma": "I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "PBE2",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "3918",
+      "codigo_turma": "I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "PBE2",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "4186",
+      "codigo_turma": "I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "PDM",
+      "professor": "Silas",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "f57d",
+      "codigo_turma": "I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "PFE",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "51bd",
+      "codigo_turma": " I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "PFE",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "3301",
+      "codigo_turma": " I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "PDM",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "6936",
+      "codigo_turma": " I2P3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "14:45",
+      "disciplina": "PSOF2",
+      "professor": "Carlinhos",
+      "sala": "Redes"
+    },
+    {
+      "id": "b4fa",
+      "codigo_turma": " I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "PBE2",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "bce9",
+      "codigo_turma": " I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "PBE2",
+      "professor": "Bruno",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "c334",
+      "codigo_turma": " I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "PDM",
+      "professor": "Silas",
+      "sala": "INF Sala 7"
+    },
+    {
+      "id": "6a89",
+      "codigo_turma": "I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "PDM",
+      "professor": "Silas",
+      "sala": "Redes"
+    },
+    {
+      "id": "5062",
+      "codigo_turma": "I2P3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "14:45",
+      "disciplina": "PSOF2",
+      "professor": "Carlinhos",
+      "sala": "Redes"
+    },
+    {
+      "id": "0218",
+      "codigo_turma": " I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "ELE",
+      "professor": "Alexandre",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "6031",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "6275",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "320d",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "f102",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "da6e",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "ec75",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "b833",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "32be",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "14:45",
+      "disciplina": "ELE",
+      "professor": "Alexandre",
+      "sala": " LAB 1 CAD"
+    },
+    {
+      "id": "fde9",
+      "codigo_turma": " I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "13:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "024c",
+      "codigo_turma": " I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "14:45",
+      "disciplina": "ELE",
+      "professor": "Alexandre",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "8982",
+      "codigo_turma": " I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "ELE",
+      "professor": "Alexandre",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "0751",
+      "codigo_turma": "I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "07:30",
+      "disciplina": "SELOP",
+      "professor": "Faustino",
+      "sala": "INST 2"
+    },
+    {
+      "id": "c8ad",
+      "codigo_turma": "I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "10:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "LAB 1 CAD"
+    },
+    {
+      "id": "fd83",
+      "codigo_turma": "I1C1",
+      "dia_aula": "segunda",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "13:00",
+      "disciplina": "SELOP",
+      "professor": "Faustino",
+      "sala": "INST 2"
+    },
+    {
+      "id": "7e26",
+      "codigo_turma": "I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "07:30",
+      "disciplina": "SELOP",
+      "professor": "Faustino",
+      "sala": "INST 2"
+    },
+    {
+      "id": "0825",
+      "codigo_turma": "I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "10:00",
+      "disciplina": "DET",
+      "professor": "J.Edson",
+      "sala": "INST 2"
+    },
+    {
+      "id": "79ee",
+      "codigo_turma": "I1C1",
+      "dia_aula": "quinta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "13:00",
+      "disciplina": "SELOP",
+      "professor": "Faustino",
+      "sala": "INST 2"
+    },
+    {
+      "id": "8619",
+      "codigo_turma": " I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "MAQ",
+      "professor": "Cássio",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "d0a5",
+      "codigo_turma": " I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "ISEL",
+      "professor": "Jonh",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "00eb",
+      "codigo_turma": " I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "SIDIG",
+      "professor": "Flavio",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "b791",
+      "codigo_turma": " I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "SIDIG",
+      "professor": "Flavio",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "3c20",
+      "codigo_turma": " I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "ISEL",
+      "professor": "Jonh",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "bfaa",
+      "codigo_turma": " I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "MAQ",
+      "professor": "Cássio",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "230b",
+      "codigo_turma": "I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "SIDIG",
+      "professor": "Flavio",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "81e2",
+      "codigo_turma": "I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "SIDIG",
+      "professor": "Flavio",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "4bd7",
+      "codigo_turma": "I2C3",
+      "dia_aula": "terça",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "ISEL",
+      "professor": "Flavio",
+      "sala": "LAB CLP"
+    },
+    {
+      "id": "9b37",
+      "codigo_turma": "I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "5",
+      "horario_inicio": "07:30",
+      "disciplina": "MAQ",
+      "professor": "Cássio",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "630a",
+      "codigo_turma": "I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "3",
+      "horario_inicio": "13:00",
+      "disciplina": "MAQ",
+      "professor": "Cássio",
+      "sala": "LAB MAQ"
+    },
+    {
+      "id": "3f31",
+      "codigo_turma": "I2C3",
+      "dia_aula": "sexta",
+      "formato_aula": "Técnico",
+      "quantidade_aulas": "2",
+      "horario_inicio": "15:30",
+      "disciplina": "ISEL",
+      "professor": "Jonh",
+      "sala": "LAB MAQ"
+    }
+  ],
+  "opcoes_horarios": [
+    {
+      "id": "1",
+      "hora": "07:30"
+    },
+    {
+      "id": "2",
+      "hora": "07:45"
+    },
+    {
+      "id": "3",
+      "hora": "08:00"
+    },
+    {
+      "id": "4",
+      "hora": "08:15"
+    },
+    {
+      "id": "5",
+      "hora": "08:30"
+    },
+    {
+      "id": "6",
+      "hora": "08:45"
+    },
+    {
+      "id": "7",
+      "hora": "09:00"
+    },
+    {
+      "id": "8",
+      "hora": "09:15"
+    },
+    {
+      "id": "9",
+      "hora": "09:30"
+    },
+    {
+      "id": "10",
+      "hora": "09:45"
+    },
+    {
+      "id": "11",
+      "hora": "10:00"
+    },
+    {
+      "id": "12",
+      "hora": "10:15"
+    },
+    {
+      "id": "13",
+      "hora": "10:30"
+    },
+    {
+      "id": "14",
+      "hora": "10:45"
+    },
+    {
+      "id": "15",
+      "hora": "11:00"
+    },
+    {
+      "id": "16",
+      "hora": "11:15"
+    },
+    {
+      "id": "17",
+      "hora": "11:30"
+    },
+    {
+      "id": "18",
+      "hora": "11:45"
+    },
+    {
+      "id": "19",
+      "hora": "12:00"
+    },
+    {
+      "id": "20",
+      "hora": "12:15"
+    },
+    {
+      "id": "21",
+      "hora": "12:30"
+    },
+    {
+      "id": "22",
+      "hora": "12:45"
+    },
+    {
+      "id": "23",
+      "hora": "13:00"
+    },
+    {
+      "id": "24",
+      "hora": "13:15"
+    },
+    {
+      "id": "25",
+      "hora": "13:30"
+    },
+    {
+      "id": "26",
+      "hora": "13:45"
+    },
+    {
+      "id": "27",
+      "hora": "14:00"
+    },
+    {
+      "id": "28",
+      "hora": "14:15"
+    },
+    {
+      "id": "29",
+      "hora": "14:30"
+    },
+    {
+      "id": "30",
+      "hora": "14:45"
+    },
+    {
+      "id": "31",
+      "hora": "15:00"
+    },
+    {
+      "id": "32",
+      "hora": "15:15"
+    },
+    {
+      "id": "33",
+      "hora": "15:30"
+    },
+    {
+      "id": "34",
+      "hora": "15:45"
+    },
+    {
+      "id": "35",
+      "hora": "16:00"
+    },
+    {
+      "id": "36",
+      "hora": "16:15"
+    },
+    {
+      "id": "37",
+      "hora": "16:30"
+    },
+    {
+      "id": "38",
+      "hora": "16:45"
+    },
+    {
+      "id": "39",
+      "hora": "17:00"
+    },
+    {
+      "id": "40",
+      "hora": "17:15"
+    },
+    {
+      "id": "41",
+      "hora": "17:30"
+    },
+    {
+      "id": "42",
+      "hora": "17:45"
+    },
+    {
+      "id": "43",
+      "hora": "18:00"
+    },
+    {
+      "id": "44",
+      "hora": "18:15"
+    },
+    {
+      "id": "45",
+      "hora": "18:30"
+    },
+    {
+      "id": "46",
+      "hora": "18:45"
+    },
+    {
+      "id": "47",
+      "hora": "19:00"
+    },
+    {
+      "id": "48",
+      "hora": "19:15"
+    },
+    {
+      "id": "49",
+      "hora": "19:30"
+    },
+    {
+      "id": "50",
+      "hora": "19:45"
+    },
+    {
+      "id": "51",
+      "hora": "20:00"
+    },
+    {
+      "id": "52",
+      "hora": "20:15"
+    },
+    {
+      "id": "53",
+      "hora": "20:30"
+    },
+    {
+      "id": "54",
+      "hora": "20:45"
+    },
+    {
+      "id": "55",
+      "hora": "21:00"
+    },
+    {
+      "id": "56",
+      "hora": "21:15"
+    },
+    {
+      "id": "57",
+      "hora": "21:30"
+    },
+    {
+      "id": "58",
+      "hora": "21:45"
+    },
+    {
+      "id": "59",
+      "hora": "22:00"
+    }
+  ]
+}
