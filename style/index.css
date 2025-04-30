@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #e30613;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+}
+
+.logoDiv {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logoSenai {
+  width: 90px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+}
+
+.titleHome {
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    table-layout: auto; /* Deixe o layout fluir */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+    word-break: break-word;
+}
+
+.professores{
+    font-size: 16px;
+}
+
+th {
+    background-color: #dbb4b4;
+    font-size: 13px;
+}
+
+.tabela-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#tabelas-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    /* box-sizing: border-box; */
+}
+
+/* Responsividade para celular */
+@media screen and (max-width: 768px) {
+    th, td {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .titleHome {
+        font-size: 18px;
+    }
+
+    .logoSenai {
+        width: 70px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        border: none;
+    }
+
+    .professores{
+        font-size: 10px;
+    }
+
+}
